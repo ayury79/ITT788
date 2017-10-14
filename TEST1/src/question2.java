@@ -58,7 +58,7 @@ public class question2 {
             catch(IOException ex) {
                 System.out.println(
                     "Error writing file '"
-                    + fileName + "'");
+                    + fileName2 + "'");
                 // Or we could just do this:
                 // ex.printStackTrace();
             }
