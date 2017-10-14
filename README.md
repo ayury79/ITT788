@@ -1,4 +1,4 @@
-# ITT788 (AdvancedNetworkProgramming)
+# ITT788
 
 Test1
 
