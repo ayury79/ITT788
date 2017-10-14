@@ -6,7 +6,7 @@ public class question3 {
         // The name of the file to open.
         String fileName = "B.BIN";
         
-     // The name of the file to create.
+        // The name of the file to create.
         String fileName2 = "C.txt";
 
         try {
@@ -32,9 +32,9 @@ public class question3 {
 
             // Always close files.
             inputStream.close();        
-
+            System.out.println("Read " + total + " bytes");
+            
             //-----------------
-
             try {
                 // Put some bytes in a buffer so we can
                 // write them. Usually this would be
@@ -62,14 +62,12 @@ public class question3 {
             }
             catch(IOException ex) {
                 System.out.println(
-                    "Error writing file '"
-                    + fileName + "'");
+                    "Error writing to file '"
+                    + fileName2 + "'");
                 // Or we could just do this:
                 // ex.printStackTrace();
             }
-            //-----------------  
-            
-            System.out.println("Read " + total + " bytes");
+            //-----------------
         }
         catch(FileNotFoundException ex) {
             System.out.println(
